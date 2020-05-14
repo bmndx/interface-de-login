@@ -1,0 +1,90 @@
+/* --- Reset & Global --- */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* background: url(../img/fundo.jpg) no-repeat; */
+    background: rgb(85,50,124);
+    background: linear-gradient(270deg, rgba(85,50,124,1) 0%, rgba(198,104,117,1) 89%, rgba(178,87,118,1) 100%);
+
+}
+
+
+
+/* --- Container Style --- */
+#container {
+    text-align: center;
+    background-color: rgba(255,255,255,0.3);
+    width: 400px;
+    height: 340px;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+img {
+    width: 120;
+    height: 120;
+    margin-top: -60px;
+    margin-bottom: 30px;
+}
+
+
+
+/* --- Input Style --- */
+input {
+    font-size: 18px;
+    background-color: rgb(255, 255, 255, 0);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    width: 80%;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin-bottom: 10px;
+    padding: 0px 0px 10px 40px;
+}
+
+input.email {
+    background-image: url(../img/user-icon.png); 
+}
+
+input.password {
+    background-image: url(../img/password-icon.png);   
+}
+
+.input-password {
+    padding-top: 10px;
+}
+
+
+
+/* --- Button Style --- */
+.input-btn {
+    padding-top: 30px;
+}
+
+input.submit {
+    color: #fff;
+    background: linear-gradient(270deg, rgba(85,50,124,1) 0%,rgba(198,104,117,1) 89%,rgba(178,87,118,1) 100%);
+    width: 90%;
+    height: 45px;
+    border: none;
+    border-radius: 30px;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+input.submit:hover {
+    background: linear-gradient(270deg, rgba(178,87,118,1) 100%, rgba(198,104,117,1) 89%, rgba(85,50,124,1) 0%);
+}
+
+::-webkit-input-placeholder  { 
+    color:rgba(255, 255, 255, 0.705); 
+}
+
+
+/* --- // --- */
