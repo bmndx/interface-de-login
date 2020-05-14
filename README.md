@@ -1,4 +1,4 @@
-<!--# Interface de login / 2
+# Interface de login / 2
 
 ### Tela de login com imagem de usuário, e-mail e senha.
 
@@ -17,4 +17,3 @@ Através dos repositórios está sendo possível acompanhar a minha evolução n
 ## Screenshots do site:
 
 ![](screenshots/1.png)
--->
