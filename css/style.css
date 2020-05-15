@@ -9,7 +9,13 @@ body {
     /* background: url(../img/fundo.jpg) no-repeat; */
     background: rgb(85,50,124);
     background: linear-gradient(270deg, rgba(85,50,124,1) 0%, rgba(198,104,117,1) 89%, rgba(178,87,118,1) 100%);
+}
 
+h4, a {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    padding-top: 5px;
 }
 
 
